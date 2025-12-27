@@ -1,3 +1,4 @@
+<img width="938" height="1281" alt="2222" src="https://github.com/user-attachments/assets/815bdd34-d4b1-481c-9899-1c306a918cd9" />
 # Salsa20 Demo (libsodium, C)
 
 This repository documents my first successful cryptography build using the Salsa20 stream cipher via **libsodium**.
