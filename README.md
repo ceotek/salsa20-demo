@@ -1,4 +1,3 @@
-<img width="938" height="1281" alt="2222" src="https://github.com/user-attachments/assets/815bdd34-d4b1-481c-9899-1c306a918cd9" />
 # Salsa20 Demo (libsodium, C)
 
 This repository documents my first successful cryptography build using the Salsa20 stream cipher via **libsodium**.
@@ -37,7 +36,8 @@ using the same key and nonce with the Salsa20 stream cipher.
 This demonstrates why nonce reuse is catastrophic in stream ciphers.
 
 ![Salsa20 Nonce Reuse Output](PASTE_YOUR_IMAGE_URL_HERE)
-<img width="938" height="1281" alt="111" src="https://github.com/user-attachments/assets/4d88750f-2920-49c6-9c18-2f3d9fa5c787" />
+<img width="938" height="1281" alt="2222" src="https://github.com/user-attachments/assets/593092f2-3d68-476f-9567-086b029d8c8a" />
+
 ## Security Takeaway
 
 ⚠️ **This project intentionally demonstrates insecure cryptographic practice.**
