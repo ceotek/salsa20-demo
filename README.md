@@ -37,3 +37,21 @@ This demonstrates why nonce reuse is catastrophic in stream ciphers.
 
 ![Salsa20 Nonce Reuse Output](PASTE_YOUR_IMAGE_URL_HERE)
 <img width="938" height="1281" alt="111" src="https://github.com/user-attachments/assets/4d88750f-2920-49c6-9c18-2f3d9fa5c787" />
+## Security Takeaway
+
+⚠️ **This project intentionally demonstrates insecure cryptographic practice.**
+
+Nonce reuse in stream ciphers (Salsa20, ChaCha20, etc.) is **catastrophic** and breaks confidentiality guarantees.
+
+When the same key + nonce pair is reused:
+- The keystream is reused
+- XORing ciphertexts cancels the keystream
+- The XOR of plaintexts is revealed
+- Knowing or guessing one plaintext leaks the other
+
+### Correct Practice
+- **Never reuse a nonce with the same key**
+- Use constructions that enforce nonce safety, such as **AEAD**
+  - Example: `ChaCha20-Poly1305`
+
+This code is for **educational purposes only** and must **never** be used in production.
