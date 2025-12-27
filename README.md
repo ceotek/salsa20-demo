@@ -14,3 +14,4 @@ This repository documents my first successful cryptography build using the Salsa
 ```bash
 gcc salsa20_demo.c -o salsa20_demo $(pkg-config --cflags --libs libsodium)
 ./salsa20_demo
+```
