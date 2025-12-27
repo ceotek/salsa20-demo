@@ -35,6 +35,5 @@ using the same key and nonce with the Salsa20 stream cipher.
 
 This demonstrates why nonce reuse is catastrophic in stream ciphers.
 
-![Salsa20 Nonce Reuse Output](PASTE_YOUR_IMAGE<img width="1488" height="471" alt="Screenshot from 2025-12-26 20-13-41" src="https://github.com/user-attachments/assets/8db69261-b7dc-4d38-bc6c-66c510214f2b" />
-_URL_HERE)
-
+![Salsa20 Nonce Reuse Output](PASTE_YOUR_IMAGE_URL_HERE)
+<img width="938" height="1281" alt="111" src="https://github.com/user-attachments/assets/4d88750f-2920-49c6-9c18-2f3d9fa5c787" />
